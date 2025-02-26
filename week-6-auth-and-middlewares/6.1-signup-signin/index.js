@@ -1,7 +1,10 @@
 const express = require("express");
 const app = express();
+
+require("dotenv").config();
 const jwt = require("jsonwebtoken");
-const JWT_SECRET = "codemxde";
+const JWT_SECRET = process.env.JWT_SECRET || "yourSecretKey";
+
 const cors = require("cors");
 
 const users = [];
