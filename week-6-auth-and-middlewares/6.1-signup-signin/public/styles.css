@@ -4,13 +4,15 @@ body {
 }
 
 .render-img {
-  background-image: url("./cacti.jpg");
+  /* background-image: url("./cacti.jpg"); */
+  background-image: url("../resources/cacti.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .login-img {
-  background-image: url("./old-skool.jpg");
+  /* background-image: url("./old-skool.jpg"); */
+  background-image: url("../resources/old-skool.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

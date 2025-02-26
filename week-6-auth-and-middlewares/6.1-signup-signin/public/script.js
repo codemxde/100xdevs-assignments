@@ -48,7 +48,6 @@ const addSignUpListener = () => {
         }
       })
       .catch((err) => {
-        // alert(err.message);
         alert("Server refused connection");
       });
   });
